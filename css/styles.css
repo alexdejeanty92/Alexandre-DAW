@@ -1,0 +1,25 @@
+body {
+	padding: 70 px;
+}
+
+
+.features .fas  {
+  font-size: 32px;
+  color: green;
+}
+
+.footer{
+padding: 20px 0;
+bottom: 0;
+width: 100%
+height: 200px;
+background-color: #ddf2fa; 
+color: green ;
+}
+
+.footer a{
+	color: black;
+}
+@media only screen and (max-width: 768px){
+	.footer {height: 350px}
+}
