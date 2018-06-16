@@ -34,7 +34,7 @@
 
   <input class="form-control mr-sm-2" type="search"  placeholder="search" aria-label="search">
 
-<button class="btn btn-outlinep-success my-2 my-sm-0" type="submit">Search</button>
+<button class="btn btn-outlinep-success   my-2 my-sm-0 " type="submit">Search</button>
 
   </form>
   
@@ -47,5 +47,20 @@
     <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.js"> </script>
 <script type="text/javascript"></script>
+<script src="bower_components/hammerjs/hammer.js" ></script>
+
+<script>
+ var $body = document.body;
+ var hammertime = new hammer ($body);
+ hammertime.on('swipeleft',funcyion(ev){
+  console.log(ev);
+ } );
+
+ hammertime.on('swiperight',funcyion(ev){
+  console.log(ev);
+
+
+
+</script>
   </body>
 </html>
