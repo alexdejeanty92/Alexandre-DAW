@@ -29,7 +29,7 @@
 <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
 <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
 <li class="nav-item" ><a class="nav-link" href="aboutus.html">About us</a></li>
-<li class="nav-item"><a class="nav-link" href="contact.html">Contact us</a></li>
+<li class="nav-item"><a class="nav-link" href="#" data-toggle="modal" data-target="#modal-contact-form">Contact us</a></li>
 
   <form class="form-inline">
 
@@ -64,10 +64,10 @@
     <p> <br> <a href="#">Read more about product</a></p>
     </div>
   <div class="col-md-8 d-none d-sm-block">
-      <img src="image/im0.jpg" alt="" width="300px" height="200">
+      <img src="image/im0.jpg" alt="" width="600px" height="300">
     </div>
     </div>
-    <br>
+    </br>
     <hr>
 
 
@@ -75,88 +75,123 @@
 
       <div class=" col-md-8">
           <h3>The company</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quos expedita, eaque perspiciatis explicabo debitis dolore vitae itaque quasi, tenetur neque voluptas nam, repellat ipsum? Officiis, repellat dolorum reiciendis dolorem.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quos `expedita, eaque perspiciatis explicabo debitis dolore vitae itaque quasi, tenetur neque voluptas nam, repellat ipsum? Officiis, repellat dolorum reiciendis dolorem.</p>
   </div>
    <div class="col-md-4">
-    <p class="br-light rounded lead text-center p-md-5 m-md-3">Our motto</p>
+    <p class="bg-light rounded lead text-center p-md-5 m-md-3">Our motto</p>
    </div>
     </div>
     <!-- /.row -->
     <hr>
-    <div class="row">
-    <h3>Testimonials</h3>
-      <div class="col-md-12 text-center">
-        <div class="carousel " id="carouselTestimonionts"   data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <blockquote class="blockquote">
-                <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Recusandae, nobis!</p>
-                <footer class="blockquote-footer">
-                  fulanito 1
-                </footer>
-              </blockquote>
-            </div>
-            <div class="carousel-item ">
-              <blockquote class="blockquote">
-                <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                   Recusandae, nobis!</p>
-                <footer class="blockquote-footer">
-                  fulanito 2
-                </footer>
-              </blockquote>
-            </div>
-            <div class="carousel-item">
-              <blockquote class="blockquote">
-                <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Recusandae, nobis!</p>
-                <footer class="blockquote-footer">
-                  fulanito 3
-                </footer>
-              </blockquote>
-            </div>
-        </div>
-      </div>
-    </div>
+   <div class="row">
+  <h3>Testimonials</h3>
+  <div class="col-md-12 text-center">
+    <div class="carousel slide" id="carouselTestimonios" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <blockquote class="blockquote">
+            <p>“Don’t walk in front of me… I may not follow
+Don’t walk behind me… I may not lead
+Walk beside me… just be my friend” </p>
+            <footer class="blockquote-footer">
+              Albert Camus
+            </footer>
+          </blockquote> <!-- end blockquote -->
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p>“I'm selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can't handle me at my worst, then you sure as hell don't deserve me at my best.” </p>
+            <footer class="blockquote-footer">
+              Marylyn Monroe
+            </footer>
+          </blockquote> <!-- end blockquote -->
+        </div>
+        <div class="carousel-item">
+          <blockquote class="blockquote">
+            <p>“Two things are infinite: the universe and human stupidity; and I'm not sure about the universe.”</p>
+            <footer class="blockquote-footer">
+              Albert Einstein
+            </footer>
+          </blockquote> <!-- end blockquote -->
+        </div>
+      </div>
+</div>
+</div>
+<!-- /.col md-12 text-center -->
+   </div>
+   <hr>
+   <div class="footer">
+     <p class="text-center lead">
+       Wanna get in touch? Email us at alexandredejeanty@gmail.com
+     </p>
+     <hr>
+     <ul class="list-unstyled text-center col-md-12 letra">
+       <li class="list-inline-item"><a href="#"> <i class="fab fa-twitter-square"></i></a></li>
+       <li class="list-inline-item"><a href="#"> <i class="fab fa-facebook-square"></i></a></li>
+       <li class="list-inline-item"><a href="#"> <i class="fab fa-linkedin"></i></a></li>
+     </ul>
+     <p class="text-center text-muted">
+       &copy; Copyright 2018 Decibel Entertainment
+     </p>
+   </div>
+   <!--row-->
+   </div>
 
-    </div>
-    <hr>
-    <div class="footer col-md-12">
-      <p class="text-center lead">wanna get in touch? Email us at juancortttes@gmail.com</p>
-      <hr>
-      <ul id="iconos" class="list-unstyled  text-center">
-        <li class="list-inline-item"><a href=""><i class="fab fa-twitter-square"></i></a></li>
-        <li class="list-inline-item"><a href=""><i class="fab fa-facebook-square"></i></a></li>
-        <li class="list-inline-item"><a href=""><i class="fab fa-linkedin"></i></a></li>
-      </ul>
-  </div>
-
+<div class="modal fade" id="modal-contact-form" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title"> Contact Us </h5>
+        <button class="close" data-dismiss="modal">
+          <span>&times;</span>
+        </button>
+      </div> <!-- end header -->
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="contact-email" class="col-form-label">
+              Email:
+            </label>
+            <input type="email" class="form-control" id="contact-email">
+          </div>
+          <div class="form-group">
+            <label for="contact-name" class="col form-label">Name:</label>
+            <input type="text" class="form-control" id="contact-name">
+          </div>
+          <div class="form-group">
+            <label for="contact-message" class="col-form-label">Message:</label>
+            <textarea id="contact-message" cols="30" rows="10" class="form-control"></textarea>
+          </div>
+        </form>
+      </div> <!--end body -->
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-dismiss="modal">
+          close
+        </button>
+        <button class="btn-btn-primary">
+          send
+        </button>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-    <script src="bower_components/jquery/dist/jquery.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.js"> </script>
-<script type="text/javascript"></script>
-<script src="bower_components/hammerjs/hammer.js" ></script>
-
+   <!--Container-->
+<!-- se agrega la libreria de jqueria para que boostra.js funcione-->
+<script src="bower_components\jquery\dist\jquery.js"></script>
+<!-- Se agrega a librería de bootstrab.js para las animaciones-->
+<script src="bower_components\bootstrap\dist\js\bootstrap.js"></script>
+<script src="bower_components\hammerjs\hammer.js"></script>
 <script>
- var $body = document.body;
- var hammertime = new hammer ($body);
- hammertime.on('swipeleft',funcyion(ev){
-  console.log(ev);
- } );
- hammertime.on('swiperight',funcyion(ev){
-  console.log(ev);
+var $doby = document.body;
+var hammertime = new Hammer($doby);
+hammertime.on('swipeleft', function(ev) {
+console.log(ev);
+});
+var hammertime = new Hammer($doby);
+hammertime.on('swiperight', function(ev) {
+console.log(ev);
+});
 </script>
-  </body>
+</body>
 </html>
